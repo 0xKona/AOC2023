@@ -34,5 +34,4 @@ const part1 = input => {
 
     return input.reduce((sum, history) => sum + extrapolateNext(history), 0);
 };
-
 console.log(part1(transformInput(ogInput)));
