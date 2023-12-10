@@ -8,6 +8,7 @@ const games = require('./day2-input')
 //     'Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green'
 // ]
 
+//PART 1 [COMPLETE]
 const part1 = (input) => {
     const possibleIndex = []
 
@@ -46,6 +47,8 @@ const part1 = (input) => {
 }
 
 part1(games)
+
+//PART 2 [COMPLETE]
 
 const part2 = (input) => {
     const Powers = []

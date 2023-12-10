@@ -1,4 +1,4 @@
-//Part 1
+//Part 1 [COMPLETE]
 const input = require('./day1input')
 
 // const input = [
@@ -27,7 +27,7 @@ const calibration = (i) => {
 }
 console.log('[PART 1]:', calibration(input))
 
-//Part 2
+//Part 2 [COMPLETE]
 const calibration2 = (i) => {
     const newi =  i
     .map(e=>e.replace(/oneight/g,'oneeight'))
